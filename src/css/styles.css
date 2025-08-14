@@ -164,3 +164,24 @@ justify-content: center;
 align-items: center;
 margin-top: 20px;
 }
+
+.controls {
+  display: grid;
+  justify-items: center;
+  gap: 12px;
+  margin: 16px 0 32px;
+}
+
+#load-more {
+  padding: 10px 16px;
+  cursor: pointer;
+  border-radius: 8px;
+  width: 120px;
+  height: 40px;
+  background-color: #fff93e;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  color: #000000;
+  transition: background-color 300ms ease-in-out;
+}
